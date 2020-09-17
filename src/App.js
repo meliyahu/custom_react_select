@@ -4,6 +4,7 @@ import Select, { components,makeAnimated } from "react-select";
 import SvgLai from "./SvgLai";
 import SvgPhotopoint from "./SvgPhotopoint";
 import SvgPhenocam from "./SvgPhenocam";
+import SvgPanoramic from "./SvgPanoramic";
 import { facetColourStyles } from "./facetColourStyles";
 
 
@@ -46,6 +47,11 @@ const options = [
   { value: "lai", label: "Lai (2394)", icon: <SvgLai /> },
   { value: "phenocam", label: "Phenocam (456)", icon: <SvgPhenocam /> },
   { value: "photopoint", label: "Photo point (785)", icon: <SvgPhotopoint /> },
+  {
+    value: "panoramic",
+    label: "Panoramic (56939)",
+    icon: <SvgPanoramic />,
+  },
 ];
 
 function App() {
